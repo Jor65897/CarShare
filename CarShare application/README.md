@@ -1,2 +1,0 @@
-# CarShare-application
- Capstone project
