@@ -138,7 +138,7 @@ public class Car implements Serializable {
             return this;
         }
 
-        public Builder copy(Car car) {
+        public Builder copyCar(Car car) {
             this.carID = car.carID;
             this.userID = car.userID;
             this.carInformation = car.carInformation;
@@ -148,7 +148,7 @@ public class Car implements Serializable {
             return this;
         }
 
-        public Car build() {
+        public Car buildCar() {
             return new Car(this);
         }
     }
