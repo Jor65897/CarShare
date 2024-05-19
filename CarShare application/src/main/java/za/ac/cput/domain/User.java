@@ -141,7 +141,7 @@ public class User {
             this.verified = verified;
             return this;
         }
-        public Builder copy(User user) {
+        public Builder copyUser(User user) {
             this.userID = user.userID;
             this.name = user.name;
             this.contact = user.contact;
@@ -153,7 +153,7 @@ public class User {
             return this;
         }
 
-        public User build() {
+        public User buildUser() {
             return new User(this);
         }
     }
