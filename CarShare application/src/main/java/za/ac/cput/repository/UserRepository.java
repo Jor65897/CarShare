@@ -11,7 +11,7 @@ public interface UserRepository extends JpaRepository<User, String> {
     List<User> findUser(String userID);
     void deleteUser(String userID);
 
-    List <User> getAllCars();
+    List <User> getAllUsers();
 
 
 }
