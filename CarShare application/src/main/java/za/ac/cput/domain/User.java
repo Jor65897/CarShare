@@ -3,7 +3,7 @@ package za.ac.cput.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class User implements Serializable {
+public class User {
     private String userID;
     private Name name;
     private Contact contact;
